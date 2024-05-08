@@ -1,9 +1,3 @@
-// const plugin = {
-//   meta: {},
-//   configs: {},
-//   rules: {},
-//   processors: {}
-// };
 const path = require('path')
 const requireAll = require('require-all')
 
@@ -11,7 +5,7 @@ exports.rules = requireAll({
   dirname: path.resolve(__dirname, 'rules')
 })
 
-exports.rules = requireAll({
+exports.configs = requireAll({
   dirname: path.resolve(__dirname, 'configs')
 })
 

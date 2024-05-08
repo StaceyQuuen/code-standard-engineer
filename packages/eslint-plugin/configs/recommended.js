@@ -1,6 +1,6 @@
 module.exports= {
-  plugins: ['eslint-plugin-stacey'],
+  plugins: ['stacey'],
   rules: {
-    'eslint-plugin-stacey/no-http-url': 'warn'
+    'stacey/no-http-url': 'warn'
   }
 }
